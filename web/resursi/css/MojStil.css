@@ -1,0 +1,409 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 18, 2015, 2:25:47 AM
+    Author     : neso
+*/
+
+.pg-selected { 
+    color: #fff; 
+    font-size: 12px; 
+    background: -o-linear-gradient(#161640,#66CCFF); 
+    background: -moz-linear-gradient(#161640,#66CCFF); 
+    background: -webkit-linear-gradient(#161640,#66CCFF); 
+    padding: 2px 4px 2px 4px; 
+} 
+.pg-normal { 
+    color: #000000; 
+    font-size: 12px; 
+    cursor: pointer; 
+    background: #66CCFF; 
+    padding: 2px 4px 2px 4px; 
+}
+.pg-normal:hover {
+    background: -o-linear-gradient(#66CCFF,white); 
+    background: -moz-linear-gradient(#66CCFF,white); 
+    background: -webkit-linear-gradient(#66CCFF,white);
+}
+span.pg-normal:disabled{
+    background:red;
+}
+
+input[type=radio] {
+    border: 0px;
+    //width: 100%;
+    height: 0.8em;
+}
+.radioTD:hover {
+    background: -o-linear-gradient(#66CCFF,white); 
+    background: -moz-linear-gradient(#66CCFF,white); 
+    background: -webkit-linear-gradient(#66CCFF,white);
+}
+.radio1:hover {
+    cursor:pointer;    
+} 
+.radio1:disabled{
+    cursor:default;
+}
+
+.GornjaTabla {
+    margin-top:10px;
+    min-width:50%;
+    margin-left:auto; 
+    margin-right:auto;   
+    font-size:10px;
+    border-collapse: collapse;
+    box-shadow: 3px 3px 5px 3px #666;
+}
+.GornjaTabla td{
+    border:1px solid black;   
+}
+.zaglavlje {
+    margin-top:10px;
+    min-width:50%;
+    margin-left:auto; 
+    margin-right:auto;    
+    //border-collapse: collapse;
+    box-shadow: 3px 3px 5px 3px #666;
+    border:none;
+}
+.zaglavlje td{
+    border:none;
+    text-align: center;
+    font-size:14px;
+    height: 10px;
+}
+.izbor {
+    margin-top:30px;
+    margin-left: auto;
+    margin-right: auto;   
+    //margin-left:20px;
+    box-shadow: 3px 3px 5px 3px #666;
+    min-width: 200px; 
+    border: 1px solid black;
+}
+.izbor td{
+    border:none;
+    text-align: left;
+    font-size:14px;
+    height: 10px;
+}
+.izbor th{
+    border: none;
+    text-align: left;
+    font-size:14px;
+    height: 10px;
+    font-weight: normal;
+    background: -o-linear-gradient(#66CCFF,white); 
+    background: -moz-linear-gradient(#66CCFF,white); 
+    background: -webkit-linear-gradient(#66CCFF,white);
+    box-shadow: 1px 1px 3px 1px #666;    
+}
+.DivGoreTabla1 {
+    box-shadow: 3px 3px 5px 3px #666;      
+    position:absolute;    
+    top: 62px;
+    left: 173px;
+    width: 76%;
+    overflow: auto;   
+    height: 85%; 
+    background: -o-linear-gradient(#66CCFF,white); 
+    background: -moz-linear-gradient(#66CCFF,white); 
+    background: -webkit-linear-gradient(#66CCFF,white);     
+}
+#zaglavlje1{   
+    //border:solid 2px #161640;
+    height:22px;
+    font-size:14px;
+    color:#161640;
+    background: -o-linear-gradient(#66CCFF,white); 
+    background: -moz-linear-gradient(#66CCFF,white); 
+    background: -webkit-linear-gradient(#66CCFF,white); 
+}
+#naslov{   
+    //border:solid 2px #161640;
+    margin-left: 50px;
+    //font-weight: bold;
+    height:22px;
+    font-size:16px;
+    color:#161640;
+    background: -o-linear-gradient(#66CCFF,white); 
+    background: -moz-linear-gradient(#66CCFF,white); 
+    background: -webkit-linear-gradient(#66CCFF,white);
+    box-shadow: 1px 1px 3px 1px pink;
+    border:none;        
+}
+.maxText{
+    overflow:hidden; 
+    white-space: nowrap;  
+}
+.S100Posto{
+    font-size: 11px;
+}
+.S100Posto:disabled{
+    width:99%;
+    background-color : transparent;
+    color:black;
+    border-color:transparent;  
+}
+.S100Posto:read-only{
+    width:99%;
+    background-color : transparent;
+    color:black;
+    border-color:transparent;
+    border-style:none;
+    //text-align:right;
+}
+.S100Posto:enabled{
+    width:99%;
+    border-color:silver;
+    font-size: 12px;
+    height:16px;
+}
+.S100Posto:focus{
+    background-color: #FFE6FF;
+}
+.S100Posto[readonly]:focus {
+    width:99%;
+    background-color : transparent;
+    color:black;
+    border-color:transparent;
+}
+.LoginBody{
+    height:50%;
+    background-repeat: no-repeat;
+    background: -o-linear-gradient(top left,#E0FFFB,#FAFCFC); 
+    background: -moz-linear-gradient(top left,#E0FFFB,#FAFCFC); 
+    background: -webkit-linear-gradient(top left,#E0FFFB,#FAFCFC);
+}
+.dugmeLe{
+    color:white;
+    border:solid 2px silver;
+    border-radius: 20px;
+    background: -o-linear-gradient(#66CCFF,black); 
+    background: -moz-linear-gradient(#66CCFF,black); 
+    background: -webkit-linear-gradient(#66CCFF,black);                     
+    font-size:20px; 
+    font-style:italic;    
+}
+
+.dugmeOK{
+    font-weight: bold;
+    box-shadow: 1px 1px 3px 1px #666;
+    width:0px;
+    margin:-10px;
+    visibility:hidden; 
+}
+
+.dugmeOK:enabled{
+    font-weight: bold;
+    box-shadow: 1px 1px 3px 1px #666;
+    width:100px;
+    margin:20px;   
+}
+.dugmeOK:hover:enabled{
+    font-weight: bold;
+    //background-color:#66CCFF;
+    background: -o-linear-gradient(#161640,#66CCFF); 
+    background: -moz-linear-gradient(#161640,#66CCFF); 
+    background: -webkit-linear-gradient(#161640,#66CCFF);    
+    box-shadow: 3px 3px 5px 3px #666;
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transform: scale(1.1); 
+    color:white;
+}
+
+.OkvirMC {
+    position:absolute;
+    top:20%;
+    left:50%;
+    margin-left: -255px;    
+    color: white;
+    width:510px;
+    //margin-top:5%; 
+    box-shadow: 10px 10px 16px 8px #666;      
+    //margin-left: auto;
+    //margin-right: auto;
+    //background-color: #F8FFFF; 
+    background: -o-linear-gradient(#161640,#66CCFF); 
+    background: -moz-linear-gradient(#161640,#66CCFF); 
+    background: -webkit-linear-gradient(#161640,#66CCFF);     
+}
+.Prijava {
+    margin:30px 30px 10px 30px;
+}
+.Radnik {
+    position: fixed;
+    line-height: 20px;
+    top: 12px;
+    margin-left: 12%;
+    margin-right: 12%;  
+    width:76%;
+    background: -o-linear-gradient(#161640,#66CCFF); 
+    background: -moz-linear-gradient(#161640,#66CCFF); 
+    background: -webkit-linear-gradient(#161640,#66CCFF);     
+    color:white;
+    text-align: left;
+    font-size: medium;
+    box-shadow: 3px 3px 5px 3px #666;
+}
+.imgPng {
+    vertical-align: middle;
+    width: 20px;
+    height:20px;
+}
+.txtPng {
+    vertical-align: middle;
+}
+
+.Logo{ 
+    position:fixed;
+    margin-left: 0px;
+    margin-top: 0px;
+    width:160px;
+    height:100px;
+    
+    animation:         Logo 7s infinite;  
+    -o-animation:      Logo 7s infinite;
+    -moz-animation:    Logo 7s infinite;
+    -webkit-animation: Logo 7s infinite;
+    animation-delay:         0.2s;
+    -o-animation-delay:      0.2s;
+    -moz-animation-delay:    0.2s;
+    -webkit-animation-delay: 0.2s;
+}
+@-webkit-keyframes Logo {
+    0% { -webkit-transform: scale(1);  opacity: 1;}	
+    50% { -webkit-transform: scale(0.9); opacity: 1;}
+    100% { -webkit-transform: scale(1);  opacity: 1;}      
+}
+
+.Drustvo{
+    position: fixed;
+    width: auto;
+    right: 10px;
+    top:10px; 
+}
+.IcoDrustvene{
+    border-radius: 50px;
+    box-shadow: 3px 3px 5px 3px #666;
+}
+.IcoDrustvene:hover{
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+.Linkovi{
+    margin-top: 50px;    
+    text-align: right;
+}
+.LinkoviSlike{ 
+    margin-top: 20px;    
+    box-shadow: 3px 3px 5px 3px #666;
+    width: 170px;
+}
+.LinkoviSlike:hover{
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);  
+    -webkit-transform: scale(1.1);
+}
+
+.logoslika {
+    vertical-align: middle;
+    width: 170px;
+    height:55px;
+}
+
+.FontAgency{
+    color:#66FFCC;
+    text-shadow: -1px 0 #161640, 0 1px #161640, 1px 0 #161640,  0 -1px #161640;    
+    font-size: 30px;
+    /*font-weight: 900;*/
+    -webkit-mask-image: -webkit-gradient(linear,left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,1)));
+}
+
+.OpisAgency{
+    font-size: 20px;
+    font-weight: 900;    
+    color:#161640;
+}
+
+#Test{
+    background-color:black; 
+    width: 2500px;
+    height: 2500px;
+}
+
+
+/* A   N   I   M   A   C   I   J   A        O    P   I   S */
+.anim3D 
+{
+  width:400px;
+  text-align: center; 
+  animation:         rot3D 20s infinite;  
+  -o-animation:      rot3D 20s infinite;
+  -moz-animation:    rot3D 20s infinite;
+  -webkit-animation: rot3D 20s infinite;
+  animation-delay:         0.2s;
+  -o-animation-delay:      0.2s;
+  -moz-animation-delay:    0.2s;
+  -webkit-animation-delay: 0.2s;
+}
+@-webkit-keyframes rot3D {
+	from      { -webkit-transform:rotateY(-20deg);}
+        50%       { -webkit-transform:rotateY(40deg); }
+        100%      { -webkit-transform:rotateY(-20deg); }
+}
+/*      D     O       V        D          E                  */
+
+.neVidi{
+    visibility: hidden;
+    width:0px;
+    display:inline;    
+}
+
+.porukaBrisanja{
+    font-size: 16px;
+    font-weight: 900;
+    color: red;   
+}
+.porukaBrisanjaiDiv{
+    margin-left: 150px;
+    margin-top: -30px;
+
+    -webkit-animation-iteration-count: 1;
+    
+    animation:         porukaBrisanjaiDivAnim 10s;  
+    -o-animation:      porukaBrisanjaiDivAnim 10s;
+    -moz-animation:    porukaBrisanjaiDivAnim 10s;
+    -webkit-animation: porukaBrisanjaiDivAnim 10s ;
+    animation-delay:         0.2s;
+    -o-animation-delay:      0.2s;
+    -moz-animation-delay:    0.2s;
+    -webkit-animation-delay: 0.2s;    
+}
+
+@-webkit-keyframes porukaBrisanjaiDivAnim {
+    0%   {opacity: 1;}	
+    50%  {opacity: 0.8;}
+    100% {opacity: 0;}      
+}
+::-webkit-input-placeholder {
+   color: red;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: red;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: red;  
+}
+
+:-ms-input-placeholder {  
+   color: red;  
+}

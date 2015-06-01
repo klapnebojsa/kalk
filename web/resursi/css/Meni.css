@@ -1,0 +1,69 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 4, 2015, 9:44:36 PM
+    Author     : neso
+*/
+#navigator {
+    z-index:10;
+    top:100px;
+    position:fixed;
+    margin:0;
+    padding:0;   
+}
+#navigator ul{
+    margin:0;
+    padding:0;      
+}
+#navigator li{    
+    list-style:none;
+    color:white;
+    font-size: 15px;
+    text-align: center;
+    position:relative;
+    width:160px;
+    height:20px;
+    line-height: 20px;    
+    background: -o-linear-gradient(#66CCFF,#161640); 
+    background: -moz-linear-gradient(#66CCFF,#161640); 
+    background: -webkit-linear-gradient(#66CCFF,#161640); 
+    box-shadow: 3px 3px 5px 3px #666; 
+    margin:3px;
+}
+#navigator ul li a{
+    color:white;
+    text-align:center;
+    text-decoration:none;
+    width:160px;
+    height:20px;
+    display:block;
+}
+#navigator ul ul{
+    top: 2px;
+    color:white;
+    position: absolute;
+    display:none;
+}
+#navigator ul li:hover ul{   
+    left:130px;    
+    display:block;
+    z-index: 10;
+}
+
+#navigator li:hover a:hover{   
+    color:black;
+    background: -o-linear-gradient(#66CCFF,white); 
+    background: -moz-linear-gradient(#66CCFF,white); 
+    background: -webkit-linear-gradient(#66CCFF,white);
+    -webkit-transform: scale(1.1);
+    box-shadow: 4px 4px 6px 4px #666;    
+}
+
+#navigator li:active a:active{   
+    background: -o-linear-gradient(red,white); 
+    background: -moz-linear-gradient(red,white); 
+    background: -webkit-linear-gradient(red,white);   
+}
