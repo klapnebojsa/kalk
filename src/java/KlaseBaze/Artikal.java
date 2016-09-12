@@ -142,7 +142,7 @@ public class Artikal implements InterfaceDAO, Serializable {
     
     public String UpisiSlog(){
         return "'" + idArtikal   + "' , '"
-                   + arVlasnik     + "' , '"                
+                   + arVlasnik   + "' , '"                
                    + arOpis      + "' , '" 
                    + arDim       + "' , '" 
                    + arPorStopa  + "'";

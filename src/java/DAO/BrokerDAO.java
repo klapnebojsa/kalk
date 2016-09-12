@@ -27,7 +27,6 @@ public class BrokerDAO implements Serializable{
         opstaOperacija = new OpstaOperacija(a);       
     }
 
- 
 /////////// OTVARANJE BAZE /////////////////////
     public void otvoriBazu() throws ClassNotFoundException, SQLException{
         opstaOperacija.OtvoriBazu();
